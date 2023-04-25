@@ -1,0 +1,177 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin-top: 5rem;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.logo{
+    width: 40%;
+    text-align: center;
+
+}
+.logo img{
+    width: 50%;
+}
+.texto-header{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto-header h1{
+    font-size: 6rem;
+    font-weight:bolder;
+    color: #545454;
+    margin-bottom: 0rem;
+    line-height: 5rem;
+}
+.texto-header p{
+    color: #545454;
+    font-size: 2.1rem;
+    margin-bottom: 0rem;
+}
+.banner{
+    position: relative;
+}
+.franja img{
+    width: 100%;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+
+}
+.contacto p{
+    color: #69A92F;
+    font-size: 2rem;
+    bottom: 8rem;
+    position: absolute;
+    right: 10rem;
+
+}
+.contacto a{
+    right: 10rem;
+    bottom: 5rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #69A92F;
+    width: 21rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: absolute;
+
+}
+
+.footer{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #69A92F;
+}
+
+.footer span{
+    font-weight: bold;
+}
+
+
+.footer p span{
+    font-weight:bolder;
+}
+
+.responsabilidad{
+    font-size: 3.2rem;
+    line-height:0rem;
+
+}
+.coberturas{
+    font-size: 4rem;
+    line-height: 5rem;
+
+}
+.profesionales{
+    font-size: 4.7rem;
+    line-height: 1rem;
+
+}
+.vida{
+    font-size: 4.3rem;
+    line-height: 5.5rem;
+}
+.beneficios{
+    font-size: 3.2rem;
+    line-height: 0rem;
+}
+
+
+@media all and (max-width: 768px){
+
+
+    header{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .texto-header h1{
+        font-size: 1.7rem;
+        line-height: 1.5rem;
+    }
+    .texto-header p{
+        font-size: 0.6rem;
+    }
+
+    .contacto p{
+        font-size: 0.8rem;
+        bottom: 1.5rem;
+        position: absolute;
+        right: 2rem;
+    
+    }
+    .contacto a{
+        right: 2.2rem;
+        bottom: 0.8rem;
+        width: 8rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        position: absolute;
+    
+    }
+
+    .footer{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .responsabilidad{
+        font-size: 1rem;
+    }
+    .coberturas{
+        font-size: 1.25rem;
+        line-height: 0.5rem;
+    }
+    .profesionales{
+        font-size: 1.46rem;
+        line-height: 0.5rem;
+    
+    }
+    .vida{
+        font-size: 1.35rem;
+        line-height: 0.5rem;
+    }
+    .beneficios{
+        font-size: 1rem;
+        line-height: 0.5rem;
+    }
+
+
+
+}
